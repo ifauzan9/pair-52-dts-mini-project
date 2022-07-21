@@ -1,0 +1,84 @@
+.carousel-home{
+    background-color: red;
+    margin-top: 110px;        
+    height: 300px;    
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-box{
+    background-color: greenyellow;    
+    position: relative;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.carousel-box > #img{
+    width: 200px;
+    position: absolute;
+    right: 40px;
+}
+.mySwiper{
+    /* background-color: red; */
+    height: 400px;    
+}
+
+.item-1{
+    background-color: rgb(17, 12, 27);
+    width: 90%;
+    margin: auto;
+    /* border-radius: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.item-1 .desc{
+    color: #fff;
+    flex: .7;
+    /* background-color: red; */
+}
+
+.item-1 .thumb{    
+    /* width:400px; */
+    text-align: end;
+    background-color: red;
+    position: relative;
+    margin-right: 100px;
+}
+
+.item-1 .thumb img{
+    width: 300px;
+}
+
+.item-1 .thumb::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    /* background-color: black; */
+    left: -25px;
+    background: rgb(232,232,232);
+    background: linear-gradient(270deg, rgba(232, 232, 232, 0.11) 4%, rgb(53, 52, 52) 46%, rgb(17, 12, 27) 47%);
+}
+
+.item-1 .thumb::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    /* background-color: black; */
+    right: -30px;
+    background: rgb(232,232,232);
+    background: linear-gradient(90deg, rgba(232, 232, 232, 0.11) 4%, rgb(53, 52, 52) 46%, rgb(17, 12, 27) 47%);
+}
+
+@media screen and (max-width:600px){
+    .item-1 .desc{
+        display: none;
+    }
+}

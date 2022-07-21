@@ -1,0 +1,57 @@
+.loginContainer{
+    background-color: #252424;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+}
+
+.loginPage{
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}   
+
+.imgLogin{
+    width: 50%;        
+}
+
+.titleLogin{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    /* background-color: greenyellow; */
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputLogin{
+    color: #fff;    
+}
+
+@media screen and (max-width: 600px){
+    .loginPage{
+        flex-direction: column;
+    }
+
+    .loginPage{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgLogin{
+        width: 100%;
+    }
+
+}

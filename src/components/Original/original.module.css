@@ -1,0 +1,31 @@
+.titlePopular{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.mySwiper{
+    background-color: red;
+}
+
+.popularItem{
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.popularItem:hover{
+    transform: translateY(-2px);
+}
+
+
+.popularItem img{
+    width: 300px;
+}
+
+@media screen and (max-width: 600px) {    
+    .popularItem img{
+        width: 300px;        
+    }
+}

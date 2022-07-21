@@ -1,0 +1,41 @@
+.titlePopular{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.mySwiper{
+    background-color: red;
+}
+
+.popularItem{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    display: flex;   
+    /* background-color: aqua;  */
+    background-color: rgb(65, 64, 64);
+    align-items: center;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.popularItem:hover{
+    transform: translateY(-2px);
+}
+
+.numberList{
+    font-size: 7em;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.popularItem img{
+    width: 150px;
+}
+
+@media screen and (max-width: 600px) {    
+    .popularItem img{
+        width: 150px;        
+    }
+}

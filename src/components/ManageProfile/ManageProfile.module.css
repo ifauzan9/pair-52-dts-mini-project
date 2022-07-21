@@ -1,0 +1,45 @@
+.manageContainer{
+    background-color: black;
+    height: 100vh;
+    position: relative;    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.manageLogo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.profilesContainer{
+    /* background-color: green; */
+    padding-top: 100px;
+    /* width: 80%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    /* align-items: center; */
+}
+
+.mySwiper{
+    /* width: 1000px;     */
+    /* background-color: aqua; */
+}
+
+.title{
+    margin: 0;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 3.5em;
+}
+
+.item p{
+    color: #fff;
+}
+
+
+
